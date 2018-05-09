@@ -9,6 +9,9 @@ import FixedDimensionsBasic from './Components/FixedDimensionsBasic';
 import FixedDimensionsBasicWithFlex from './Components/FixedDimensionsBasicWithFlex';
 import LayoutFlexDirectionsBasics from './Components/LayoutFlexDirectionsBasics';
 import LayoutJustifyContentBasics from './Components/LayoutJustifyContentBasics';
+import InputText from './Components/InputText';
+import ButtonBasics from './Components/ButtonBasics';
+import Touchables from './Components/Touchables';
 
 export default class App extends React.Component {
     render() {
@@ -23,7 +26,10 @@ export default class App extends React.Component {
             // <FixedDimensionsBasic></FixedDimensionsBasic>
             // <FixedDimensionsBasicWithFlex></FixedDimensionsBasicWithFlex>
             // <LayoutFlexDirectionsBasics></LayoutFlexDirectionsBasics>
-            <LayoutJustifyContentBasics></LayoutJustifyContentBasics>
+            // <LayoutJustifyContentBasics></LayoutJustifyContentBasics>
+            // <InputText></InputText>
+            // <ButtonBasics></ButtonBasics>
+            <Touchables></Touchables>
         );
     }
 }
