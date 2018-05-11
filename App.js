@@ -12,6 +12,7 @@ import LayoutJustifyContentBasics from './Components/LayoutJustifyContentBasics'
 import InputText from './Components/InputText';
 import ButtonBasics from './Components/ButtonBasics';
 import Touchables from './Components/Touchables';
+import IScrolledDownAndWhatHappenedNextShockedMe from './Components/Scrolling';
 
 export default class App extends React.Component {
     render() {
@@ -29,7 +30,8 @@ export default class App extends React.Component {
             // <LayoutJustifyContentBasics></LayoutJustifyContentBasics>
             // <InputText></InputText>
             // <ButtonBasics></ButtonBasics>
-            <Touchables></Touchables>
+            // <Touchables></Touchables>
+            <IScrolledDownAndWhatHappenedNextShockedMe></IScrolledDownAndWhatHappenedNextShockedMe>
         );
     }
 }
